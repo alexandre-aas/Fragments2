@@ -1,1 +1,1 @@
-# Fragments2. Usando frgamentos em telas grandes.
+# Fragments2. Usando fragmentos em telas grandes.
