@@ -1,9 +1,10 @@
 package com.s.d.a.a.fragments2;
 
-import android.app.Activity;
+//import android.app.Activity;
 import android.os.Bundle;
 
-public class FragmentoPrincipal extends Activity {
+//public class FragmentoPrincipal extends Activity {
+public class FragmentoPrincipal extends DebugActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

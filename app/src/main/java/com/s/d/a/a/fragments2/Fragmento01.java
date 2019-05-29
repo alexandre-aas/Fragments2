@@ -8,7 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class Fragmento01 extends Fragment {
+//public class Fragmento01 extends Fragment {
+public class Fragmento01 extends DebugFragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_fragmento01, null);
@@ -17,4 +18,8 @@ public class Fragmento01 extends Fragment {
         return view;
     }
 
+    @Override
+    public void onClick(View v) {
+
+    }
 }

@@ -17,7 +17,7 @@
         android:gravity="center"
         >
         <!-- Frag 1 -->
-        <fragment class="br.livroandroid.cap06.fragments.Fragment1"
+        <fragment class="com.s.d.a.a.fragments2.Fragmento01"
             android:id="@+id/frag1"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -42,7 +42,7 @@
             android:gravity="center"
             >
             <!-- Frag 2 -->
-            <fragment class="br.livroandroid.cap06.fragments.Fragment2"
+            <fragment class="com.s.d.a.a.fragments2.Fragmento02"
                 android:id="@+id/frag2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -60,7 +60,7 @@
             android:gravity="center"
             >
             <!-- Frag 3 -->
-            <fragment class="br.livroandroid.cap06.fragments.Fragment3"
+            <fragment class="com.s.d.a.a.fragments2.Fragmento03"
                 android:id="@+id/frag3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
