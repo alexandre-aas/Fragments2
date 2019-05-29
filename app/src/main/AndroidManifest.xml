@@ -19,3 +19,5 @@
     </application>
 
 </manifest>
+
+<!-- Somente p/ API 25 ou superior - android:roundIcon="@mipmap/ic_launcher_round"-->
