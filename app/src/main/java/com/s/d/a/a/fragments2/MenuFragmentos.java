@@ -9,7 +9,8 @@ import android.widget.ListView;
 
 public class MenuFragmentos extends ListActivity {
 
-    private static final String[] opcoes = new String[] { "Activity normal","Fragmentos XML", "Fragmentos API", "Sair" };
+    private static final String[] opcoes = new String[] { "Activity normal","Fragmentos XML",
+            "Fragmentos API", "Fragmentos XML/API", "Sair" };
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -28,6 +29,9 @@ public class MenuFragmentos extends ListActivity {
                 break;
             case 2:
                 startActivity(new Intent(this, FragmentoAPI.class));
+                break;
+            case 3:
+                startActivity(new Intent(this, ActionBarPrincipal.class));
                 break;
             default:
                 finish();
