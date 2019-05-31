@@ -52,10 +52,20 @@ public class FragmentoAPI extends DebugActivity{
                     //Se o fragmento já foi criado remove
                     fragTransaction.remove(frag2);
                 }else {
-                    
+                    //Senão, cria o fragmento dinamicamente via API
+                    frag2 = new Fragmento02();
+                    fragTransaction.add(R.id.layout2, frag2, "fragmento02");
                 }
+                fragTransaction.commit();
+                break;
+            case 1:
+                //Usa "FragmentTransaction" com o "addToBackStack"
+                Fragmento04 frag4 = new Fragmento04();
+                fragTransaction.replace(R.id.layout3, frag4, "fragmento04");
+                fragTransaction.addToBackStack("recarregar o fragmento03 no lugaro do fragmento04");
+                fragTransaction.commit();
+                break;
         }
-
 
         return true;
     }
