@@ -15,4 +15,12 @@ public class Fragmento02 extends Fragment {
         text.setText("Fragmento02! Texto 2.");
         return view;
     }
+
+    public void setTexto(String msg) {
+        View view = getView();
+        if (view != null) {
+            TextView text = (TextView) view.findViewById(R.id.text2);
+            text.setText(msg);
+        }
+    }
 }
