@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_busca"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Busca"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/smile2"
+        android:title="Item 2"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu3"
+        android:title="Item 3"
+        android:showAsAction="never" />
+</menu>

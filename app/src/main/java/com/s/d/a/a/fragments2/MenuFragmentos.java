@@ -10,7 +10,7 @@ import android.widget.ListView;
 public class MenuFragmentos extends ListActivity {
 
     private static final String[] opcoes = new String[] { "Activity normal","Fragmentos XML",
-            "Fragmentos API", "Fragmentos XML/API", "Fragmentos API com TAB", "Sair" };
+            "Fragmentos API", "Fragmentos XML/API", "Fragmentos API com TAB", "Fragmentos API Search View", "Sair" };
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -35,6 +35,9 @@ public class MenuFragmentos extends ListActivity {
                 break;
             case 4:
                 startActivity(new Intent(this, ActionBarComTabs.class));
+                break;
+            case 5:
+                startActivity(new Intent(this, ActionBarComTabseSearchView.class));
                 break;
             default:
                 finish();
